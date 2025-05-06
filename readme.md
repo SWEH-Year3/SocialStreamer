@@ -10,6 +10,15 @@
 * Consume Data with spark
 * Apply Aggregate Function on that data
 
+---
+
+## System Architecture
+<p>
+<img src='./SocialStreamer.png' alt='sys arch' >
+</p>
+
+---
+
 ## Tools
 
 <p style='text-align: center'>
@@ -38,3 +47,5 @@
 3.1- Starting Producer ` node .\producer\producer.js `
 
 3.2- start consumer ` python .\spark\pythonSpark\main.py `
+
+
