@@ -24,12 +24,12 @@ const publish = async (data) => {
     await producer.disconnect();
 };
 
-const TOKEN =
-  "EAA67fD5DKL0BO3ZAMb18QlCh6zMpbjt3MWqwZBuJOogPW0mOBRBZAtpliVOJIxLMsN5ENcbd8y2y4lwp7DMi8ZC0dI4fLFP8oR1Rppo75MjZBfHZCOTBY5iEfwYZBeTPIpBaOYbJRAzzJBh7EiNqX4Y0VoSmBdpAWv3Mb5tDS8rEwqJP1nL8E1PgrHJIbWWiM2MpPe8zXcKT7915ZAtAlMUwzCYb8mSAL8IVRyLfwajZClpWGGqKZAZAtXKmiNW4N2UBPKKJarYQWoDHZAEZD";
 const URL = 'https://graph.facebook.com/v22.0/me/likes';
 let nextPage = '';
 
 const app = () => {
+    const TOKEN = process.env.TOKEN;
+    // console.log(TOKEN)
     // console.log(nextPage);
     axios.get(URL, {
         params: {
