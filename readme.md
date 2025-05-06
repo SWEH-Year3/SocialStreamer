@@ -31,7 +31,7 @@
 
 ## How To Run
 
-1. Start Docker Container of Kafka ` docker-compose --project-directory=".\docker\" -d up`
+1- Start Docker Container of Kafka ` docker-compose --project-directory=".\docker\" up -d `
 
 2- get new token from [Graph API](https://developers.facebook.com/tools/explorer/)
 
@@ -41,7 +41,7 @@
 
 * make sure that you installed dependencies inside *producer* `npm i ` , inside *pythonSpark* `pip install -r requirements.txt`
    
-   
+
 3.1- Set Token in env (windows powershell) `$env:TOKEN=<Your-Token>`
 <br>
 3.2- Starting Producer ` node .\producer\producer.js `
