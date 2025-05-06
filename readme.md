@@ -41,9 +41,10 @@
 
 * make sure that you installed dependencies inside *producer* `npm i ` , inside *pythonSpark* `pip install -r requirements.txt`
    
-3.0- Set Token in env (windows powershell) `$env:TOKEN=<Your-Token>`
-3.1- Starting Producer ` node .\producer\producer.js `
-
-3.2- start consumer ` python .\spark\pythonSpark\main.py `
-
+   
+3.1- Set Token in env (windows powershell) `$env:TOKEN=<Your-Token>`
+<br>
+3.2- Starting Producer ` node .\producer\producer.js `
+<br>
+3.3- start consumer ` python .\spark\pythonSpark\main.py `
 
