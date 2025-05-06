@@ -1,0 +1,21 @@
+# Core Spark support
+pyspark==3.5.1
+findspark
+
+# Data processing
+pandas
+numpy
+pyarrow
+
+# Optional: For Kafka integration (e.g., Structured Streaming with Kafka)
+confluent-kafka
+
+# Optional: If you read/write from AWS S3
+boto3
+
+# Optional: If you use Hadoop-style file systems
+hdfs
+
+# Development tools (e.g., for notebooks)
+jupyterlab
+notebook
