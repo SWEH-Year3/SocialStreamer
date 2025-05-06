@@ -24,6 +24,7 @@
 <img src='./icons/meta-logo-facebook-svgrepo-com.svg' alt='meta facebook logo' width=150>
 <img src='./icons/nodejs-logo-svgrepo-com.svg' alt='nodejs logo' width=150>
 <img src='./icons/kafka-svgrepo-com.svg' alt='kafka logo' width=150>
+<img src='./icons/docker-svgrepo-com.svg' alt='docker logo' width=150>
 <img src='./icons/python-svgrepo-com.svg' alt='python logo' width=150>
 </p>
 
@@ -42,9 +43,18 @@
 * make sure that you installed dependencies inside *producer* `npm i ` , inside *pythonSpark* `pip install -r requirements.txt`
    
 
-3.1- Set Token in env (windows powershell) `$env:TOKEN=<Your-Token>`
+3.1- Set Token in env (windows powershell) `$env:TOKEN='<Your-Token>'`
 <br>
 3.2- Starting Producer ` node .\producer\producer.js `
 <br>
 3.3- start consumer ` python .\spark\pythonSpark\main.py `
 
+---
+
+## Images 
+
+<p>
+<img src='./icons/pub.png' alt='published image'>
+
+<img src='./icons/out.png' alt='output image'>
+</p>
